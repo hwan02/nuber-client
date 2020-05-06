@@ -9,7 +9,7 @@ import GlobalStyle from "../../global-styles";
 
 const AppContainer = ({data}:{data?:any}) => 
 (
-    <ThemeProvider theme ={theme}>
+    <ThemeProvider theme={theme}>
         <React.Fragment>
             <GlobalStyle/>
             <AppPresenter isLoggedIn={data.auth.isLoggedIn} />
